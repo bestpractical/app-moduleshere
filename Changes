@@ -2,6 +2,8 @@ Revision history for App-moduleshere
 
 {{$NEXT}}
 
+    Warn if we want a directory but get a plain file.
+
 0.03   2010-04-24 07:38:53 CST
 
     In tests, call `mhere' using $^X
