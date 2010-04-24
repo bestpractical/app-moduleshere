@@ -43,7 +43,7 @@ if (@ARGV) {
     }
 
     if (@success) {
-        print 'copied modules: ', join ', ', @success;
+        print 'copied module(s): ', join ', ', @success;
         print "\n";
     }
     else {
