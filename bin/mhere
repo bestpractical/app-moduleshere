@@ -25,6 +25,11 @@ if (@ARGV) {
 
         my $here =
           catdir( $to, @parts[ 0 .. $#parts - 1 ] );
+        if ( -e $here && !-d $here ) {
+            warn "failed to make path $here: it exists but not a directory";
+            next;
+        }
+
         mkpath($here)
           or warn "failed to make path $here: $!" and next
           unless -e $here;
