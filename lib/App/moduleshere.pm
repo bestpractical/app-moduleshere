@@ -51,7 +51,7 @@ No bugs have been reported.
 
 =head1 AUTHOR
 
-<sunnavy>  C<< <<sunnavy@bestpractical.com>> >>
+sunnavy  C<< sunnavy@bestpractical.com >>
 
 
 =head1 LICENCE AND COPYRIGHT
