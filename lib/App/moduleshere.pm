@@ -28,7 +28,7 @@ The precedence order is: C<-l>, env C<APP_MODULES_HERE> and cwd.
 By default, it will copy to cwd.
 
 It's first written when I tried to trace a bug in one of my modules which 
-led me to the other module(let's call it C<Foo> here) in C<@INC>.
+led me to another module(let's call it C<Foo> here) in C<@INC>.
 
 So I ran C<perldoc -l Foo> to find its path, edited it to add more debug
 info, forced save it(happy that I had the write permission),
