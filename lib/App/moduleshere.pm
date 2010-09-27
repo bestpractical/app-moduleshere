@@ -2,7 +2,7 @@ package App::moduleshere;
 
 use warnings;
 use strict;
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 1;
 
@@ -15,6 +15,7 @@ App::moduleshere - copy modules(.pm) to cwd or somewhere
 =head1 SYNOPSIS
 
     mhere Carp                                    # copy Carp.pm in @INC to cwd
+    mhere -r Carp                                 # copy Carp and all under it.
     mhere Carp CGI                                # copy both Carp.pm and CGI.pm
     APP_MODULES_HERE=outlib mhere Carp            # copy to outlib dir in cwd
     mhere -l outlib Carp                          # ditto
