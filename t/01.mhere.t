@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 
-use Test::More tests => 14;
+use Test::More;
 use File::Temp 'tempdir';
 use FindBin;
 use File::Spec::Functions qw/catfile updir/;
@@ -100,3 +100,4 @@ sub compare_files {
     }
 }
 
+done_testing();
