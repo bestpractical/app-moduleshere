@@ -21,6 +21,7 @@ App::moduleshere - copy modules(.pm) to cwd or somewhere
     mhere -l outlib Carp                          # ditto
     APP_MODULES_HERE=/tmp/ mhere Carp             # copy to /tmp/
     mhere -l /tmp/ Carp                           # ditto
+    mhere Carp --dry-run                          # don't actually copy
 
 =head1 DESCRIPTION
 
