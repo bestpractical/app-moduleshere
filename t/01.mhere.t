@@ -20,6 +20,7 @@ EXAMPLES:
     mhere -l outlib Carp                          # ditto
     APP_MODULES_HERE=/tmp/ mhere Carp             # copy to /tmp/
     mhere -l /tmp/ Carp                           # ditto
+    mhere Carp --dry-run                          # don't actually copy
 EOF
 
 is( `$^X $mhere`,        $usage, 'mhere without args shows usage' );
